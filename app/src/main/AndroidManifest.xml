@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tolunaymutlu.tezdeneme2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PamuKariyer"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tezdeneme2" >
+        <activity
+        android:name="com.tolunaymutlu.tezdeneme2.JobsActivity"
+            android:label="İş İlanları"
+        android:exported="false" />
+        <activity
+        android:name="com.tolunaymutlu.tezdeneme2.ProfileActivity"
+            android:label="Profilim"
+        android:exported="false" />
+        <activity
+        android:name="com.tolunaymutlu.tezdeneme2.SignUpActivity"
+            android:label="Kayıt Ol"
+        android:exported="false" />
+        <activity
+        android:name="com.tolunaymutlu.tezdeneme2.LoginActivity"
+        android:exported="true"
+            android:label = "PamuKariyer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>

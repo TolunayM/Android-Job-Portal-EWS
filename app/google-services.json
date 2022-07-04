@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "118662264961",
+    "project_id": "tezdeneme2",
+    "storage_bucket": "tezdeneme2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118662264961:android:df7e54c7d59a64c74e3580",
+        "android_client_info": {
+          "package_name": "com.tolunaymutlu.tezdeneme2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118662264961-t3ee5g5qlujkf050c3ajegee723vdpcj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tolunaymutlu.tezdeneme2",
+            "certificate_hash": "186d3724378e1f5cdf35d1fd12ae41decd4d5b8b"
+          }
+        },
+        {
+          "client_id": "118662264961-je8t0uo14p2k2rue4tjftb56ng97d6pq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH0jhM_sASe0WN52K50_QlSAzR07_H8co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118662264961-je8t0uo14p2k2rue4tjftb56ng97d6pq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
